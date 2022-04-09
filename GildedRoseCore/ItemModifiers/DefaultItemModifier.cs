@@ -8,7 +8,6 @@ namespace GildedRoseCore.ItemModifiers
 {
     internal class DefaultItemModifier : ItemModifier
     {
-        public override bool IsDefaultModifier => true;
         public override bool ModifierMatchesItem(Item item)
             => true;
         public override void ModifyItem(Item item)

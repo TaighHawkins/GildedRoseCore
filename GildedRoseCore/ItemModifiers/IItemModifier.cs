@@ -8,7 +8,6 @@ namespace GildedRoseCore.ItemModifiers
 {
     internal interface IItemModifier
     {
-        bool IsDefaultModifier { get; }
         bool ModifierMatchesItem(Item item);
         void ModifyIncrementIfConjured(Item item);
         public void ModifyItem(Item item);
